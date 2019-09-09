@@ -1,12 +1,12 @@
-s=0
-print('enter your number')
-w=input()
-
-while w.isalpha()==False:
-  break
-  
-else:
-  print('enter your number')
-  w=input()
-  s=s+w
-  print('the output is',s)
+print("enter your number")
+def goto(t)
+global h
+t=h
+h=1
+if 
+while True:
+  if h==1:
+    print("E
+    goto(2)
+   
+ elif 
