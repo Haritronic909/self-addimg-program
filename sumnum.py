@@ -2,13 +2,13 @@ print('Keep entering the numbers to be added until the final number.\nThen type 
 def main():
     sum = 0.0
     while True:
-        calcu = input ('Enter number: ')
-        if calcu== ('done'):
+        great = input ('Enter number: ')
+        if great== ('done'):
             break
-        elif calcu==('Done'):
+        elif great==('Done'):
             break
         try:
-            sum += float(calcu)
+            sum += float(great)
         except ValueError:
             continue
     print ('The sum is', sum)
